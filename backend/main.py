@@ -29,7 +29,7 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 print("Loading FAISS index...")
 db = FAISS.load_local(FAISS_PATH, embeddings, allow_dangerous_deserialization=True)
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.7)
+llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0.7)
 
 retriever = db.as_retriever(search_kwargs={"k": 3})
 

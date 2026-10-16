@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# FAISS index (can be rebuilt with create_index.py)
+faiss_index/
+
+# Knowledge base (add your own docs locally)
+knowledge_base/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

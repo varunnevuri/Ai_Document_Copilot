@@ -6,6 +6,10 @@ The application combines a **FastAPI backend**, **Streamlit frontend**, **FAISS 
 
 ---
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 ## 🚀 Features
 
 * 📄 **Document-based Question Answering** — Ask questions about custom PDF and `.txt` documents.

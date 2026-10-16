@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 # Load .env file from the parent directory
-load_dotenv(dotenv_path='.env')
+load_dotenv(dotenv_path='../.env')
 DB_URL = os.getenv("DATABASE_URL")
 
 conn = None
